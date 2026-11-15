@@ -21,7 +21,7 @@
     <main>
         <section class="conteudo cartazes">
             <div class="cartaz cartaz-principal">
-                <h1>Música se aprendefazendo barulho</h1>
+                <h1>Música se aprende fazendo barulho</h1>
             </div>
             <div class="cartaz cartaz-lateral">
                 <p>
@@ -180,5 +180,16 @@
             </div>
         </div>
     </footer>
+    @media (max-width: 800px) {
+    .cartazes,
+    .passos,
+    .rodape-colunas {
+        flex-direction: column;
+    }
+    .cartaz-principal h1 {
+        font-size: 84px;
+    }
+}
+
 </body>
 </html>
