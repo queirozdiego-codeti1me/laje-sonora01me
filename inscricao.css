@@ -191,6 +191,10 @@ h1, h2, h3 {
 }
  
 @media (max-width: 800px) {
-  .inscricao, .linha, .rodape-colunas {flex-direction: column;}
-  .titulo-pagina { font-size: 96px; }
+  .inscricao, .linha, .rodape-colunas {
+    flex-direction: column;
+}
+  .titulo-pagina {
+    font-size: 96px;
+}
 }
